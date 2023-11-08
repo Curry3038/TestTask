@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Master suite">
+    <test name="Selenium Test">
+        <parameter name="url" value="https://demoqa.com/"></parameter>
+        <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+        <class name="pageObjectsTest.TestTask">
+            <methods>
+                <include name="testInterview"/>
+            </methods>
+        </class>
+    </classes>    
+    </test>
+</suite>
