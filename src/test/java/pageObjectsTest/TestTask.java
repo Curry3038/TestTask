@@ -12,7 +12,7 @@ public class TestTask extends BaseTest {
 
      @Test
     public void testInterview() throws InterruptedException {
-//        Переход на старничку элементы
+//        Переход на стрaничку элементы
         MainPage mainPage = new MainPage(driver);
         mainPage.open(url);
         ElementsPage elementsPage = mainPage.moveToElementsPage();
